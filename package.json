@@ -1,0 +1,58 @@
+{
+  "name": "speculative",
+  "version": "0.1.0",
+  "description": "prerender, preconnect, preload, prefetch, dns-prefetch",
+  "main": "speculative.js",
+  "scripts": {
+    "lint": "jshint speculative.js && jshint test.js",
+    "test": "npm run lint && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/speculative.git"
+  },
+  "keywords": [
+    "resource-hints",
+    "dns-prefetch",
+    "performance",
+    "preconnect",
+    "prerender",
+    "prefetch",
+    "browser",
+    "preload",
+    "speed",
+    "link",
+    "dom",
+    "dns",
+    "ux"
+  ],
+  "author": "Ryan Van Etten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanve/speculative/issues"
+  },
+  "homepage": "https://github.com/ryanve/speculative#readme",
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "open": "0.0.5"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "boss": true,
+    "browser": true,
+    "debug": true,
+    "devel": true,
+    "eqnull": true,
+    "evil": true,
+    "expr": true,
+    "globals": {},
+    "latedef": "nofunc",
+    "laxcomma": true,
+    "maxerr": 5,
+    "node": true,
+    "sub": true,
+    "supernew": true,
+    "undef": true,
+    "unused": "vars"
+  }
+}
