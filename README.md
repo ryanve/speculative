@@ -81,7 +81,7 @@ speculative({
 ```js
 speculative({
   href: './track-2.mp3',
-  rel: 'prefetch next',
+  rel: 'prefetch',
   as: 'media',
   pr: .8
 })
