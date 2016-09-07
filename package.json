@@ -1,6 +1,6 @@
 {
   "name": "speculative",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "prerender, preconnect, preload, prefetch, dns-prefetch",
   "main": "speculative.js",
   "scripts": {

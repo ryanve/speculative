@@ -129,7 +129,7 @@ speculative({
 
 ```js
 var cxn = require('cxn')
-var speculative = cxn.metered ? function() {} : require('speculative')
+var speculative = cxn.metered() ? function() {} : require('speculative')
 ```
 
 ## License
